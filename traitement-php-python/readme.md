@@ -1,6 +1,6 @@
 # Traitement hybride
 ## Attention au bug PHP : faille de sécurité exec()
-```ascii
+```text
 
              FICHIER CSV
                   |
@@ -14,7 +14,10 @@
                   |
           Pour chaque ligne i on boucle un traitement en python
 ```
-          ```php foreach($matrice as $ligne){}```
+
+```php
+  foreach($matrice as $ligne){}
+```
                   |
                   v
           +---------------+
