@@ -8,7 +8,7 @@
                   |
            Boucle principale
                   |
-          Pour chaque ligne i (ex : foreach($matrice as $ligne){})
+          Pour chaque ligne i (ex :```php foreach($matrice as $ligne){}```)
                   |
                   v
           +---------------+
