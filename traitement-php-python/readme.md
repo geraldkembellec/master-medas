@@ -51,4 +51,5 @@
           |      PHP      |
           | Stockage      |
           | des résultats |
+          | et affichage. |
           +---------------+
