@@ -23,7 +23,13 @@
 ```
 
 ```php
-  foreach($matrice as $ligne){}
+  foreach($matrice as $ligne){
+    // On prépare la commande externe à envoyer à Python
+    // C'est à dire comparer la ligne en cours (l'utilisateur), avec la matrice (tous les utilisateurs)
+    $command = "echo " . escapeshellarg($ligne,$matrice) . " | python3 Pearson-ligne-matrice.py";
+    // on récupère un tableau qui contient toutes les valeurs de corrélations pour tous les autres usagers
+    $resultat = shell_exec($command);
+  }
 ```
                   |
                   v
