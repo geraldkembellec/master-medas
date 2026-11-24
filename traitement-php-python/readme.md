@@ -1,5 +1,12 @@
 # Traitement hybride
-## Attention au bug PHP : faille de sécurité exec()
+## Attention au bug PHP : faille de sécurité `shell_exec()`
+
+| Architecture | Fonctionnement | Usage |
+| --- | --- | --- |
+|PHP → Python par ligne | PHP appelle Python pour chaque ligne | Prototype, petits volumes |
+| PHP → Python une seule fois | PHP transmet toute la matrice ; Python effectue les calculs et renvoie les résultats | Interface de visualisation pour moyens et gros volumes |
+
+
 ```text
 
              FICHIER CSV
