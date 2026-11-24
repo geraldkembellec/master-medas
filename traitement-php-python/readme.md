@@ -3,7 +3,7 @@
 
 | Architecture | Fonctionnement | Usage |
 | --- | --- | --- |
-|PHP → Python par ligne | PHP appelle Python pour chaque ligne | Prototype, petits volumes |
+|PHP → Python par ligne | PHP appelle Python pour chaque ligne avec [`shell_exec()`](https://www.php.net/manual/fr/function.shell-exec.php)| Prototype, petits volumes |
 | PHP → Python une seule fois | PHP transmet toute la matrice ; Python effectue les calculs et renvoie les résultats | Interface de visualisation pour moyens et gros volumes |
 
 
