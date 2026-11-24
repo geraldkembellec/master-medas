@@ -8,7 +8,7 @@
                   |
            Boucle principale
                   |
-          Pour chaque ligne i
+          Pour chaque ligne i (ex : foreach($matrice as $ligne){})
                   |
                   v
           +---------------+
