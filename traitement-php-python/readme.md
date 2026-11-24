@@ -1,5 +1,5 @@
 # Traitement hybride
-## Attention au bug PHP : faille de sécurité `shell_exec()`
+## Attention au bug PHP d'octobre 2026 : faille de sécurité [`shell_exec()`](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alerte-cyber-failles-de-securite-critiques-dans-php-202610)
 
 | Architecture | Fonctionnement | Usage |
 | --- | --- | --- |
